@@ -1,0 +1,4 @@
+---
+eureka:
+  client:
+    service-url: http://localhots:8010/eureka

@@ -6,25 +6,43 @@ eureka:
 
 ---
 spring:
-  profiles: subject
-words: I,You,He,She,It
-  
+  profiles: sentence
+  application:
+    name: client-solution
+server:
+  port: 8020
 ---
 spring:
-  profiles: verb
-words: ran,knew,had,saw,bought
-
+  profiles: subject
+  application:
+    name: client-solution
+server:
+  port: ${PORT:${SERVER_PORT:0}}
 ---
 spring:
   profiles: article
-words: a,the
-
+  application:
+    name: client-solution
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+---
+spring:
+  profiles: verb
+  application:
+    name: client-solution
+server:
+  port: ${PORT:${SERVER_PORT:0}}
 ---
 spring:
   profiles: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely
-
+  application:
+    name: client-solution
+server:
+  port: ${PORT:${SERVER_PORT:0}}
 ---
 spring:
   profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog
+  application:
+    name: client-solution
+ server:
+  port: ${PORT:${SERVER_PORT:0}}

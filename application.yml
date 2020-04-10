@@ -43,3 +43,12 @@ spring:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
+
+
+---
+spring:
+  profiles: noun
+  application:
+    name: client-solution
+server:
+  port: ${PORT:${SERVER_PORT:0}}

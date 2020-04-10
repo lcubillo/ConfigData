@@ -47,7 +47,7 @@ spring:
   application:
     name: adjective
 server:
-  port: 8006
+  port: 8005
 
 ---
 words: boat,book,vote,seat,backpack,partition,groundhog
@@ -56,5 +56,5 @@ spring:
   application:
     name: noun
 server:
-  port: 8005
+  port: 8006
  

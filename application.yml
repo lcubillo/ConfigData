@@ -13,46 +13,47 @@ server:
   port: 8020
 
 ---
+words: I,You,He,She,It
 spring:
   profiles: subject
   application:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
-words: I,You,He,She,It
 
 ---
+words: a,the
 spring:
   profiles: article
   application:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
-words: a,the
 
 ---
+words: ran,knew,had,saw,bought
 spring:
   profiles: verb
   application:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
-words: ran,knew,had,saw,bought
 
 ---
+words: reasonable,leaky,suspicious,ordinary,unlikely
 spring:
   profiles: adjective
   application:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
-words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
+words: boat,book,vote,seat,backpack,partition,groundhog
 spring:
   profiles: noun
   application:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
- words: boat,book,vote,seat,backpack,partition,groundhog
+ 

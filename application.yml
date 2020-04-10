@@ -20,7 +20,7 @@ spring:
   application:
     name: client-solution
 server:
-  port: ${PORT:${SERVER_PORT:0}}
+  port: 8002
 
 ---
 words: a,the
@@ -29,7 +29,7 @@ spring:
   application:
     name: client-solution
 server:
-  port: ${PORT:${SERVER_PORT:0}}
+  port: 8003
 
 ---
 words: ran,knew,had,saw,bought
@@ -38,7 +38,7 @@ spring:
   application:
     name: client-solution
 server:
-  port: ${PORT:${SERVER_PORT:0}}
+  port: 8004
 
 ---
 words: reasonable,leaky,suspicious,ordinary,unlikely
@@ -47,7 +47,7 @@ spring:
   application:
     name: client-solution
 server:
-  port: ${PORT:${SERVER_PORT:0}}
+  port: 8006
 
 ---
 words: boat,book,vote,seat,backpack,partition,groundhog
@@ -56,5 +56,5 @@ spring:
   application:
     name: client-solution
 server:
-  port: ${PORT:${SERVER_PORT:0}}
+  port: 8005
  

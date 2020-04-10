@@ -18,7 +18,7 @@ words: I,You,He,She,It
 spring:
   profiles: subject
   application:
-    name: client-solution
+    name: subject
 server:
   port: 8002
 
@@ -27,7 +27,7 @@ words: a,the
 spring:
   profiles: article
   application:
-    name: client-solution
+    name: article
 server:
   port: 8003
 
@@ -36,7 +36,7 @@ words: ran,knew,had,saw,bought
 spring:
   profiles: verb
   application:
-    name: client-solution
+    name: verb
 server:
   port: 8004
 
@@ -45,7 +45,7 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 spring:
   profiles: adjective
   application:
-    name: client-solution
+    name: adjective
 server:
   port: 8006
 
@@ -54,7 +54,7 @@ words: boat,book,vote,seat,backpack,partition,groundhog
 spring:
   profiles: noun
   application:
-    name: client-solution
+    name: noun
 server:
   port: 8005
  

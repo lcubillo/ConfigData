@@ -19,6 +19,7 @@ spring:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
+words: I,You,He,She,It
 
 ---
 spring:
@@ -27,6 +28,7 @@ spring:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
+words: a,the
 
 ---
 spring:
@@ -35,6 +37,7 @@ spring:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
+words: ran,knew,had,saw,bought
 
 ---
 spring:
@@ -43,7 +46,7 @@ spring:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
-
+words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
@@ -52,3 +55,4 @@ spring:
     name: client-solution
 server:
   port: ${PORT:${SERVER_PORT:0}}
+ words: boat,book,vote,seat,backpack,partition,groundhog

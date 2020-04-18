@@ -1,4 +1,4 @@
 ---
 limits-service:
-  minimum: 8
-  maximum: 888
+  minimum: 2
+  maximum: 222

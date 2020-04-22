@@ -3,5 +3,5 @@ spring:
   profiles:
     active: qa
 limits-service:
-  minimum: 22
+  minimum: 2
   maximum: 222
